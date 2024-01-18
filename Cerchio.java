@@ -22,9 +22,9 @@ public class Cerchio extends JFrame {
             @Override
             protected void paintComponent(Graphics g) {
                 super.paintComponent(g); //richiamo il costruttore della classe passando il parametro grafico g.
-                Graphics2D g2d = (Graphics2D) g; //creo un oggetto Graphics2D usando il casting specificando che è un oggetto Graphics2D e non un ogetto Graphics.
-                g2d.setColor(Color.BLUE);//colore del cerchio.
-                g2d.fillOval(x, y, circleSize, circleSize); //metodo che crea il cerchio passando x,y, altezza e lunghezza del cerchio.
+                Graphics2D c2d = (Graphics2D) g; //creo un oggetto Graphics2D usando il casting specificando che è un oggetto Graphics2D e non un ogetto Graphics.
+                c2d.setColor(Color.BLUE);//colore del cerchio.
+                c2d.fillOval(x, y, circleSize, circleSize); //metodo che crea il cerchio passando x,y, altezza e lunghezza del cerchio.
             }
         };
         
