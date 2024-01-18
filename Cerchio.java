@@ -4,11 +4,11 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Cerchio extends JFrame {
-    private static int y=50;
-    private static int ySpeed=10;
-    private static int x=50; 
-    private static int xSpeed=10;
-    private static final int circleSize = 100;
+    private static int y=50; //cordinate y.
+    private static int ySpeed=10;//velocita asse  y.
+    private static int x=50; //cordinate x.
+    private static int xSpeed=10;//velocita asse  x.
+    private static final int circleSize = 100;//metà diametro cerchio.
 
     public  Cerchio () {
         setTitle("Circle");
