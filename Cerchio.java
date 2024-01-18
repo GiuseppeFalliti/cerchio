@@ -43,13 +43,12 @@ public class Cerchio extends JFrame {
         });
         timer.start();
 
-        pack();//metodo che calcola la dimensione idale del frame in base alla dimensione del panello collegato al frame.
-        setSize(400, 400); 
+         setSize(400, 400); 
         setLocationRelativeTo(null);
 
        add(panel);
-       pack();
-       setLocationRelativeTo(null);
+       pack();//metodo che calcola la dimensione idale del frame in base alla dimensione del panello collegato al frame.
+       
        
     }
 
